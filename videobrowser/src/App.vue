@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <SearchBar @termChange="onTermChange"></SearchBar>
         <videoList :videos="videos"></videoList> 
     </div>
@@ -9,7 +9,7 @@
 import SearchBar from './components/searchBar';
 import VideoList from './components/VideoList';
 import axios from 'axios';
-const API_KEY = 'AIzaSyBpveA1l_jJ6wgJ6efTpraZ8JnPdryMCB8';
+const API_KEY = 'AIzaSyBugH7MJySz-DwpZa08ur-O9a4yel6O01Y';
 
 
 export default {
